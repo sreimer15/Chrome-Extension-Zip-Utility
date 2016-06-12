@@ -5,11 +5,16 @@ This is useful because if you use git as a version control, you don't want to zi
 Takes 6 arguments
 
 Argument 1: Name of folder where app is located
+
 Argument 2: folder you want to ignore (could be incomplete features) 
+
 Argument 3: finalName of zipped up app (.zip will be added automatically, no need to specify zip)
+
 Argument 4: path to a json file you might want to update (relative to where the python file is)
             (This is useful because in order to publish a new version of your extension, chrome extension store requires you to update your version in your manifest.json file)
+            
 Argument 5: property you want to change
+
 Argument 6: value to update to
 
 
